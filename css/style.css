@@ -839,9 +839,9 @@ img {
 }
 
 
-/* Backdrop */
+/* MOB Backdrop */
 
-/* .backdrop {
+.backdrop {
     position: fixed;
     top: 0;
     width: 100%;
@@ -860,15 +860,15 @@ img {
 }
 
 .modal {
-    width: 408px;
-    min-height: 584px;
+    width: 288px;
+    min-height: 623px;
     background-color: #fcfcfc;;
     border-radius: 4px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 72px 24px 24px 24px;
+    padding: 72px 16px 24px 16px;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 1px 3px rgba(0, 0, 0, 0.12),
         0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -1003,6 +1003,8 @@ img {
 
 .modal-checkbox {
     margin-bottom: 24px;
+    padding-left: 24px;
+    position: absolute;
 }
 
 .visually-hidden {
@@ -1040,6 +1042,9 @@ img {
     justify-content: center;
     fill: transparent;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    position: absolute;
+    left: 0;
+    bottom: 11px;
 }
 
 .form-check:checked +.check-text span {
@@ -1061,7 +1066,7 @@ img {
     border: none;
     border-radius: 4px;
     padding: 16px 32px;
-    margin-top: 48px;
+    margin-top: 72px;
     margin-right: auto;
     margin-bottom: 0px;
     margin-left: auto;
@@ -1073,7 +1078,10 @@ img {
 .modal-btn:hover,
 .modal-btn:focus {
     background-color: #404BBF
-} */
+}
+
+
+
 
 /* TAB */
 @media screen and (min-width: 768px) {
@@ -1241,6 +1249,15 @@ img {
 
 .footer-btn {
     margin: 0;
+}
+
+
+/* TAB Backdrop */
+
+.modal {
+width: 408px;
+    min-height: 584px;
+    padding: 72px 24px 24px 24px;
 }
 
 }
