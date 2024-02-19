@@ -456,6 +456,7 @@ img {
     align-items: center; */
     padding-top: 96px;
     background-color: #F4F4FD;
+    padding-bottom: 96px;
     /* padding: 120px 0; */
 }
 
@@ -480,7 +481,7 @@ img {
     /*  */
     margin-left: 12px;
     margin-right: 12px;
-    margin-bottom: 96px;
+    /* margin-bottom: 96px; */
     /* padding-top: 96px; */
 }
 
@@ -1259,6 +1260,19 @@ width: 408px;
     min-height: 584px;
     padding: 72px 24px 24px 24px;
 }
+
+.modal-checkbox {
+    padding-left: 0;
+}
+
+.check-text span {
+    position: static;
+}
+
+.modal-btn {
+    margin-top: 56px;
+}
+
 
 }
 
